@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?= heading ?></title>
+</head>
+<body style="margin:0; padding:20px; background-color:#f7f7f7; font-family:Verdana, Geneva, sans-serif; color:#333;">
+
+  <table align="center" width="100%" style="max-width:500px; background-color:#ffffff; border-radius:8px; box-shadow:0px 4px 12px rgba(0,0,0,0.1); padding:15px; border-top:5px solid #41724A; border-bottom:5px solid #41724A;">
+    <tr>
+      <td align="center">
+        <h2 style="color:#41724A; font-size:22px; font-weight:600; margin-bottom:15px;"><?= heading ?></h2>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p style="font-size:16px; line-height:1.6;"><?= intro ?></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table width="100%" cellspacing="0" cellpadding="5">
+          <tr><td><strong style="color:#41724A;">Name:</strong></td><td><?= data.Name ?></td></tr>
+          <tr><td><strong style="color:#41724A;">Email:</strong></td><td><?= data.Email ?></td></tr>
+          <tr><td><strong style="color:#41724A;">User Type:</strong></td><td><?= data["User Type"] ?></td></tr>
+          <tr><td><strong style="color:#41724A;">Ownership:</strong></td><td><?= data.Ownership ?></td></tr>
+          <tr><td><strong style="color:#41724A;">Brand:</strong></td><td><?= data.Brand ?></td></tr>
+          <tr><td><strong style="color:#41724A;">Model:</strong></td><td><?= data.Model ?></td></tr>
+          <tr><td><strong style="color:#41724A;">Old Model:</strong></td><td><?= data["Old Model"] ?></td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
