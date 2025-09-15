@@ -34,10 +34,6 @@ Deploy the project as a Web App.
 
 Share the web app link with requestors.
 
-UI Preview
-
-
-(Add a sanitized screenshot of your form UI here to showcase the project)
 
 License
 
